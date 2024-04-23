@@ -27,6 +27,9 @@ print('======================== CIFRADO MONOALFABETICO ========================\
 with open('./../data/Texto1.txt', 'r') as archivo:
     noticia = archivo.read()
 
+print('Un fragmento de la noticia:')
+print(noticia[:255], '...\n')
+
 # Verficamos que la noticia sí sea de la longitud especificada.
 longitud_noticia = len(noticia)
 print('La longitud de la noticia de entrada es de', longitud_noticia, 'caracteres.\n')
@@ -37,6 +40,9 @@ cifrado_mono = monoalfabetico.cifrado_monoalfabetico(texto_plano1, 19, 2)
 cripto_1 = ' '.join(cifrado_mono[i:i+5] for i in range(0, len(cifrado_mono), 5))
 with open('./../data/Criptograma1.txt', 'w') as archivo:
     archivo.write(cripto_1)
+
+print('Un fragmento del texto cifrado:')
+print(cripto_1[:255], '\n')
 
 frec_plano1 = monoalfabetico.frecuencias(texto_plano1)
 print('Tabla de frecuencias del texto plano:')
@@ -66,6 +72,9 @@ cifrado_poli = polialfabetico.cifrado_vigenere(texto_plano2, 'dinamitabb')
 cripto_2 = ' '.join(cifrado_poli[i:i+5] for i in range(0, len(cifrado_poli), 5)).upper()
 with open('./../data/Criptograma2.txt', 'w') as archivo:
     archivo.write(cripto_2)
+
+print('Un fragmento del texto cifrado:')
+print(cripto_2[:255], '\n')
 
 frec_plano2 = monoalfabetico.frecuencias(texto_plano2)
 print('Tabla de frecuencias del texto plano:')
