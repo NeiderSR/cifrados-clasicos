@@ -1,0 +1,39 @@
+El poder del ransomware Akira es incalculable. Las consecuencias negativas que está teniendo para las infraestructuras críticas y organizaciones de zonas estratégicas de América del Norte, Europa y Australia desde el año pasado son mayúsculas. No solo se trata de efectos económicos adversos, sino que también pone en jaque los sistemas de seguridad y vulnera la información sensible y confidencial de determinadas entidades.
+
+Es por ello que las agencias estadounidenses y europeas elaboraron un informe el pasado dieciocho de abril en el que recomendaron implementar una serie de mejoras prácticas para protegerse frente a las últimas versiones de Akira. Un método eficaz será incorporar la IA de forma segura para que actuase como un escudo infranqueable.
+
+En este sentido, John Riggi, asesor nacional de ciberseguridad y riesgos de la AHA, aseguró: «El código del ransomware Akira es capaz de atacar sistemas basados tanto en Windows como en Linux». Además, señaló al respecto que para frenar a Akira la mejor estrategia es defenderse eficientemente, ya que este ransomware utiliza dos variantes diferentes y emplea las herramientas y aplicaciones públicas disponibles para atacar.
+
+La mejor defensa contra Akira: sistemas de IA
+De ahí que se recomiende a los equipos de ciberseguridad que revisen todos los sistemas al detalle, deshabilitando las herramientas de acceso remoto e iniciando alertas para la activación de determinadas herramientas, especialmente de AdFind.
+
+Con la Guía de IA en la mano, las organizaciones pueden implementar sistemas eficientes en sus instalaciones o entornos de nube privada. No obstante, se requiere de una instalación y configuración cuidadosas que dependen de la complejidad del sistema de IA, los recursos necesarios y la infraestructura utilizada (local o nube híbrida).
+
+El informe amplía secciones como implementación segura y operación y mantenimiento seguros de las Directrices para el desarrollo seguro de sistemas de IA. También incorpora consideraciones importantes de mitigación de la interacción con la IA.
+
+Si bien es cierto, las mejores prácticas no tienen por qué ser aplicables a todos los entornos, de tal modo que las mitigaciones deberán adaptarse a casos de uso y perfiles de amenazas específicos.
+
+Fuera como fuese, la seguridad de la IA es un área de investigación que avanza a un ritmo frenético. Esto permite poder defenderse frente al potencial del ransomware Akira, ya que la industria, la educación y el mundo de las comunicaciones necesitan abordar los riesgos cambiantes y aplicar mejores prácticas tradicionales de TI a los sistemas de IA.
+
+Ni que decir tiene que la aplicación periódica de parches y actualizaciones del software puede ayudar a prevenir este tipo de ataques.
+
+El potencial de Akira
+Según investigaciones de Sophos X-Ops, Akira se caracteriza normalmente por violar los sistemas obteniendo acceso no autorizado a las VPN de la organización objetivo, partiendo de un inicio de sesión comprometido. Este malware efectúa operaciones exclusivamente de extorsión.
+
+De este modo, Akira se encarga de robar los datos de los entornos de las víctimas sin implementar ransomware ni cifrar sistemas ni datos, lo que supone una transformación drástica de los métodos de ataque de Akira y de las fórmulas de defensa de las organizaciones.
+
+Akira opera mediante un inicio de sesión comprometido o una combinación de nombre de usuario y contraseña. No obstante, también explota vulnerabilidades en el software VPN como Cisco ASA SSL VPN o Cisco AnyConnect.
+
+Su metodología eficiente
+El grupo Akira emplea diferentes métodos para avanzar dentro de la organización. De este modo, pueden realizar un minivolcado de la memoria de proceso LSASS (Servicio de subsistema de autoridad de seguridad local), que se encarga de almacenar algunas credenciales después de que un usuario inicia sesión en algo.
+
+También pueden obtener credenciales almacenadas en la base de datos de Active Directory y explotar vulnerabilidades conocidas en el software de respaldo.
+
+Entre las herramientas empleadas, Akira se vale de: Protocolo de escritorio remoto (RDP), SMB (Bloque de mensajes del servidor, que es un protocolo de comunicación de red) y el módulo Impacket wmiexec (un shell de comando remoto). Asimismo, emplea una herramienta de gestión de servicios, conocida popularmente como nssm.exe que permite crear servicios maliciosos y fijar un acceso remoto a las máquinas comprometidas.
+
+Y es que Akira trabaja, frente a la IA, para aprovechar exploits y malware, desactivando las defensas de seguridad, ya sean antimalware o herramientas de monitoreo. AnyDesk suele ser un recurso clave para que Akira obtenga un acceso remoto persistente a múltiples sistemas dentro de la red. Cuando se trata de exfiltración de datos, Akira confía en varias herramientas (WinRAR, WinSCP, rclone y MEGA).
+
+Tras extraer los datos, el grupo exigirá un rescate a la víctima y, si ese rescate no se paga, Akira amenaza con filtrar los datos robados y, a menudo, confidenciales o regulados.
+
+De ahí que la IA sea un aliado esencial para prevenir dichos ataques de Akira a instituciones críticas y reforzar la seguridad en todos los niveles.
+
